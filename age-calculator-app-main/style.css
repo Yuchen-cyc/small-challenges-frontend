@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.age-form {
+  width: 550px;
+}
+
+.birthday-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.birthday-form-top {
+  /* display: flex; */
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+}
